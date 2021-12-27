@@ -85,5 +85,55 @@ Pour plus d'ergonomie, nous vous avons préparé un environnement de déploiemen
 
 Toutes les instructions sont prêtes sur ce répo Github.
 
+## NPM
+NPM (Node Package Manager) vous permettra de récupérer toutes les dépendances nécessaires à votre application (Bootstrap, Jquery etc...).
+Afin de l'installer, vous utiliserez Node Version Manager: 
+```bash
+sudo apt install curl -y # Installer curl (il doit déjà être installé)
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" # Télécharger NVM
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Charge NVM 
+
+source .profile # Recharger le fichier .profile
+source .bashrc  # Recharger le fichier .bashrc
+
+nvm install node # Installe NodeJS/NPM
+```
+
+Exemple d'utilisation de NPM: 
+```bash
+npm init                     # Créer un projet NPM
+npm install --save bootstrap # Installer Bootstrap
+npm install --save jquery    # Installer Jquery
+npm install --global gulp    # Installer Gulp
+```
+
+Quelques précisions: 
+Lors de la création d'un projet NPM, ce dernier crée le fichier `package.json` qui contient les informations de votre projet, dont ses dépendances.
+> :warning: **Il est important de mettre le dossier `node_modules` dans un fichier `.gitignore` à la racine de votre projet GIT pour ne pas giter toutes les dépendences puisqu'elles sont lourdes et inutiles, on les installe avec une commande en local**
+
+Pour installer vos dépendances après un `git clone` de votre projet, vous pouvez utiliser la commande suivante:
+```bash
+npm install
+```
+
+Pour mettre à jour les dépendances, vous pouvez utiliser la commande suivante:
+```bash
+npm update
+npm update <nom de la dépendance>
+```
+
+### Pour aller plus loin
+Vous pouvez utiliser des outils additionnels pour construire votre application comme :
+* <a href="https://www.npmjs.com/package/gulp" target="_blank">Gulp</a>
+* <a href="https://www.npmjs.com/package/grunt" target="_blank">Grunt</a>
+* <a href="https://www.npmjs.com/package/bower" target="_blank">Bower</a>
+* <a href="https://ohmyz.sh/" target="_blank">Oh My ZSH</a>
+* <a href="https://opensource.com/article/18/8/what-how-makefile" target="_blank">Makefile</a>
+* <a href="https://devhints.io/bash" target="_blank">Scripts Bash</a>
+* <a href="https://www.valuebound.com/resources/blog/object-oriented-programming-concepts-php-part-1" target="_blank">Programmation Orientée Objet</a>
+
 ## C'est prêt ! 
 N'hésitez pas à revenir sur ce guide en cas de besoin, et à suggérer des améliorations à ce dernier ! :wink:
