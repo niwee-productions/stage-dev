@@ -92,7 +92,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 source .profile # Recharger le fichier .profile
 source .bashrc  # Recharger le fichier .bashrc
 
-nvm install node # Installe NodeJS/NPM
+nvm install --lts # Installer NodeJS/NPM sur la dernière version stable
 ```
 
 Exemple d'utilisation de NPM: 
