@@ -4,7 +4,7 @@
 ### Linux
 Afin de travailler de manière rapide et agile, vous passerez sur Linux :
 > :warning: **Vous aurez besoin d'une clé USB !**
-* Télécharger <a href="https://zorin.com/os/download/" target="_blank">Zorin OS</a>
+* Télécharger <a href="https://www.deepin.org/en/download/" target="_blank">Deepin OS</a>
 * Télécharger <a href="https://rufus.ie/en/" target="_blank">Rufus</a>
 * Lancer Rufus
   * Choisir la clé d'installation
@@ -69,13 +69,6 @@ Discord est un serveur de messagerie instantanée. Il permet de communiquer avec
 
 * Télécharger <a href="https://discordapp.com/download" target="_blank">Discord</a>
 * Rejoindre le serveur <a href="https://discord.gg/xFVTvHSYF2" target="_blank">NiWee Productions</a>
-
-## Customisation de votre environnement
-Votre environnement de travail est prêt, mais il ne vous appartient pas, à vous de trouver les outils qui vous permettront de travailler de manière efficace et d'apprécier ce dernier.
-
-Liens utiles :
-* <a href="https://www.gnome-look.org/browse/" target="_blank">Gnome Look</a>
-* <a href="https://extensions.gnome.org/" target="_blank">Gnome Extensions</a>
 
 ## Construire votre première application avec Docker
 Docker est un logiciel de gestion de conteneurs. Il permet de créer des conteneurs virtuels, de les configurer et de les déployer sur votre machine.
