@@ -13,12 +13,12 @@ Afin de travailler de manière rapide et agile, vous passerez sur Linux :
 
 Si tout s'est bien passé, votre clé est maintenant bootable et vous pouvez lancer l'ordinateur dessus. Afin de booter sur la clé USB, vous avez plusieurs options: 
 * Appuyer sur `F8` pour démarrer le bootloader
-  * Séléctionner la clé USB (ZORIN OS
+  * Séléctionner la clé USB (Deepin OS
 * Appuyer sur `F12`, `suppr` ou `F2` au lancement de l'ordinateur pour accéder au BIOS
   * Dans le bios, trouver les options de BOOT et déplacer la clé USB en tant que périphéique principal
   * Sauvegarder et redémarrer (`F10`)
 
-Une fois sur Zorin OS, vous pouvez lancer l'installateur et choisir l'option pour installer à côté de Windows (au cas ou).
+Une fois sur Deepin OS, vous pouvez lancer l'installateur et choisir l'option pour installer à côté de Windows (au cas ou).
 
 C'est terminé ! Vous avez maintenant un Linux installé sur votre machine.
 
@@ -31,7 +31,7 @@ Afin d'obtenir un environnement de travail similaire aux environnements de produ
 
 ## Les outils annexes
 ### Mise à jour du système
-Pour mettre à jour votre Zorin OS, vous passerez par le terminal et utiliserez les commandes suivantes:
+Pour mettre à jour votre Deepin OS, vous passerez par le terminal et utiliserez les commandes suivantes:
 ```bash
 sudo apt update
 sudo apt upgrade -y
